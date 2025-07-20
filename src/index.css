@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .bg-primary {
+    background-color: #132a13;
+  }
+  .bg-foundation {
+    background-color: #a3b872;
+  }
+  .bg-button {
+    background-color: #90a995;
+  }
+  .bg-star {
+    background-color: #37f3ff;
+  }
+  .bg-foundation2 {
+    background-color: #f4f6ee;
+  }
+  .bg-vector{
+    background-color: #FFE37E;
+  }
+  .text-tertiary{
+    color: #818281;
+  }
+  .text-primary{
+    color: #132a13;
+  }
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.separator {
+  border-left: 1px solid #ccc;
+  height: 100%;
+  margin: 0 20px;
+}
+
+.posterior::before{
+  content: "";
+  position: absolute;
+  left: -22%;
+  bottom: 0;
+  width: 130%;
+  height: 180px;
+  aspect-ratio: 2/1;
+  border-radius: 50%;
+  transform: rotate(-2.5deg);
+  background-color: #f4f6ee;
+  /* background-color: red; */
+  z-index: 1;
+}
