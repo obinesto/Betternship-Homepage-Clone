@@ -7,7 +7,7 @@ interface Remark {
   color: string;
 }
 
-export default function HeroSectionOne() {
+export default function HeroSection() {
   const remarks: Remark[] = [
     { remark: "Access thousands of talents", color: "bg-circle" },
     { remark: "Access thousands of talents", color: "bg-foundation" },

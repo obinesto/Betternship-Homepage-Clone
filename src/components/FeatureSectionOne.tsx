@@ -3,7 +3,7 @@ import craftImage from "../assets/craft image.png";
 import heroImageOne from "../assets/Hero section two img1.jpg";
 import heroImageTwo from "../assets/Hero section two img2.jpg";
 
-export default function HeroSectionTwo() {
+export default function FeatureSectionOne() {
   const [carouselImageIndex, setCarouselImageIndex] = useState(0);
   const imageCarousel: string[] = [heroImageOne, heroImageTwo];
 

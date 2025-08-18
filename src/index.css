@@ -63,7 +63,9 @@ body {
   z-index: 1;
 }
 
-.craftBg{
-  background-image: url(/src/assets/craft\ image.png);
-  object-fit: contain;
+.scrollBarHide{
+  scrollbar-width: none;
+}
+.scrollBarHide::-webkit-scrollbar{
+  display: none;
 }
