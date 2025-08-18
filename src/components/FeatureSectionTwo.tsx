@@ -1,5 +1,5 @@
 import Carousel from "./Carousel";
-import yellowStar from "../assets/yello star.png";
+import yellowStar from "../assets/Yellow Star.png";
 import redStar from "../assets/Red Star.png";
 
 interface Feature {
